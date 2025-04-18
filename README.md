@@ -90,7 +90,7 @@ Code Structure
   /lib               # Utility functions
   /my-trip           # User trip history
   /view-trip         # Trip details and itinerary
-  App.css, App.jsx, index.css, main.jsx
+   App.jsx, index.css, main.jsx
 firebaseconfig.jsx   # Firebase setup
 
 Testing
