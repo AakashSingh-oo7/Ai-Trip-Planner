@@ -33,13 +33,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_AUTH_CLIENT_ID}>
       <Header />
-      <Toaster />
-window.onerror = function (message, source, lineno, colno, error) {
-  document.body.innerHTML = `
-    <h1 style="color:red;">JS Error:</h1>
-    <pre>${message}\n\n${error?.stack || ""}</pre>
-  `;
-};
+      <Toaster /
       <RouterProvider router={router} />
     </GoogleOAuthProvider>
     ;
